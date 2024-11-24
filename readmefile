@@ -1,0 +1,5 @@
+#!/bin/bash  ---> shebang 
+statement you should inform linux server how to execute the script if you dont give it will not work it is used how to compile and how to execute
+
+echo "hello world im learing"  --> it is used to print some thing
+
