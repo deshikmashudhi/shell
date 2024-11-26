@@ -34,10 +34,10 @@ check_installed() {
 # Loop through all arguments (packages to install)
 for i in "$@"
 do 
+    check_installed "$i"
     # Try installing the package using yum (RedHat-based)
     sudo apt install "$i" -y
     VALIDATE $? "$i installation"
 
-    # Check if the package is installed after installation
-    check_installed "$i"
+   
 done
