@@ -35,7 +35,7 @@ check_installed() {
 for i in "$@"
 do 
     # Try installing the package using yum (RedHat-based)
-    yum install "$i" -y
+    apt install "$i" -y
     VALIDATE $? "$i installation"
 
     # Check if the package is installed after installation
