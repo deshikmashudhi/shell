@@ -5,4 +5,4 @@ NUMBER1=$1
 NUMBER2=$2
 # need to run a command inside shell to add these numbers
 SUM=$((NUMBER1+NUMBER2))
-echo "addition of two numbers is: $Sum"
+echo "addition of two numbers is: $SUM"
